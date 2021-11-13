@@ -27,6 +27,7 @@ export class LoginPage {
       if(!response[0]) {
         alert("Senha Incorreta!");
       }else {
+        alert("Senha Correta!");
         this.route.navigate(['/tabs']);
       };
     });
